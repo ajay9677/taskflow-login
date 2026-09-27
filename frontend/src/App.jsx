@@ -4,6 +4,8 @@ import Signup from "./components/Signup";
 import Dashboard from "./components/Dashboard";
 import "./App.css";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 function App() {
   const [page, setPage] = useState("login");
 
